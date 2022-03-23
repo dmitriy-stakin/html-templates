@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #242f51;
+    font-weight: 600;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a, p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    color: #320ff9;
+    text-decoration: none;
+}
+
+p {
+    color: #616368;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+section {
+    margin-bottom: 120px;
+}
+
+.button {
+    display: inline-block;
+    padding: 22px 40px;
+
+    color: #ffffff;
+    background-color: #2500f9;
+
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1170px;
+}
+
+
+
+
+.header {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-wrapper {
+    flex-grow: 1;   
+}
+
+.menu-link, .logo {
+    color: #242f51;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #fcae61;
+}
+
+.main-menu {
+    display: flex;
+
+    margin-right: 58px;
+    padding: 0;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+
+
+.main {
+    margin-top: 100px;
+}
+
+.top-section {
+    position: relative;
+    background-image: url(../AppLab/media/img/hero-back.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.top-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-image: url(../AppLab/media/img/hero-overlay.png);
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.award-wrapper {
+    display: inline-flex;
+    margin-bottom: 30px;
+    padding-right: 50px;
+
+    border-radius: 50px;
+    background-color: #e2eaed;
+} 
+
+.award-icon {
+    width: 43.33px;
+    padding: 9px;
+    margin-right: 10px;
+
+    border-radius: 50px;
+    background-color: #feaa25;
+    box-sizing: border-box;
+}
+
+.award-text {
+    padding: 10px 0;
+}
+
+.hero-heading {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.hero-text-wrapper {
+    padding: 0 70px;
+}
+
+.hero-text{
+    margin-bottom: 40px;
+}
+
+.hero-button {
+    margin-right: 30px;
+}
+
+
+
+
+.trust-list {
+    text-align: center;
+}
+
+.trust-heading {
+    margin-bottom: 40px;
+    color: #242f51;
+}
+
+.companies-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.features .container {
+    display: flex;
+    align-items: center;
+}
+
+.features-image-wrapper {
+    position: relative;
+    padding-right: 40px;
+}
+
+.features-image-wrapper:before {
+    content:"";
+    display: block;
+    position: absolute;
+    left: -15%;
+    bottom: 0;
+    z-index: 1;
+
+    width: 120%;
+    height: 82%;
+
+    background-image: url(../AppLab/media/img/features-ellipse.png);
+    background-repeat: no-repeat;
+}
+
+.features-main-image {
+    position: relative;
+    z-index: 2;
+}
+
+.features-heading {
+    
+    line-height: 1.2em;
+}
+
+.features-text {
+    margin-bottom: 60px;
+}
+
+.features-list {
+    width: 70%;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+}
+
+.feature:not(:last-child) {
+    margin-bottom: 65px;
+}
+
+.feature-icon {
+    height: 89px;
+}
+
+.feature-text {
+    padding-left: 20px;
+}
+
+.ft-heading {
+    margin-bottom: 18px;
+}
+
+li:first-child .ft-heading {
+    color: #f55767;
+}
+
+li:nth-child(2) .ft-heading {
+    color: #2563ff;
+}
+
+li:nth-child(3) .ft-heading {
+    color: #40975f;
+}
+
+
+
+
+.more-features .container {
+    width: 950px;
+}
+
+.mf-text-wrapper {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 110px;
+}
+
+.mf-header {
+    padding-right: 45px;
+    border-right: 1px solid #b9b9b8;
+}
+
+.mf-desc {
+    padding-left: 45px;
+}
+
+.mf-list {
+    display: flex;
+}
+
+.mf-item:not(:last-child) {
+    margin-right: 120px;
+}
+
+.mf-item-image {
+    margin-bottom: 30px;
+}
+
+
+
+
+.ci-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.ci-text {
+    padding: 0 100px 0 60px;
+}
+
+.ci-desc {
+    margin-bottom: 40px;
+}
+
+
+
+/*common list and section styles*/
+.centered-text-wrapper {
+    max-width: 630px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-item {
+    margin-top: 70px;
+}
+
+
+
+
+.adv {
+    text-align: center;
+}
+
+.adv-list {
+    justify-content: space-between;
+
+    max-width: 970px;
+    margin:  0 auto;
+}
+
+.adv-item {
+    width: 30%;
+}
+
+.list-image {
+    margin-bottom: 35px;
+}
+
+.list-heading {
+    margin-bottom: 25px;
+}
+
+
+
+
+.ultimate-features .container {
+    display: flex;
+}
+
+.uf-text-container {
+    width: 50%;
+}
+
+.uf-text-wrapper {
+    width: 65%;
+    text-align: left;
+}
+
+.uf-list-item {
+    width: 50%;
+}
+
+.uf-image-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.uf-button {
+    margin-top: 70px;
+}
