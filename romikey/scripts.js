@@ -26,7 +26,7 @@ const slider = new Swiper ('.services-cards',{
             slidesPerView: 'auto',
             freeMode: true,
         },
-        1024: {
+        1200: {
             slidesPerView: 'auto',
             freeMode: true,
             slidesOffsetBefore: 400,
@@ -34,7 +34,7 @@ const slider = new Swiper ('.services-cards',{
     },
     keyboard: {
         enabled: true,
-      },
+    },
 })
 
 if(!isMobile){
