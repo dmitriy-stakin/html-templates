@@ -234,7 +234,6 @@ ul.swiper-wrapper.cards-carousel {
         }
     }
 }
-
 @media (min-width: 768px) {
     .swiper-slide {
         max-width: 552px;
